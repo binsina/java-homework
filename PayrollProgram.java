@@ -5,10 +5,6 @@ import java.util.Scanner;
 
 public class PayrollProgram
 {
-
-	
-		
-
 		public static void main(String args[])
 		{
 

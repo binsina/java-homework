@@ -12,8 +12,7 @@ public class Quadradic
     double b = 0;
     double c = 0;
     double answer = 0;
-   
-   
+
     System.out.print("Enter the value of a : "); 
     a = input.nextDouble();
            
