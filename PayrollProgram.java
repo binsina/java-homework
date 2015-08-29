@@ -26,9 +26,9 @@ public class PayrollProgram
 
 			while (end == false)
 			{
-				hourlyRate = -1;
-				hoursWorked = -1;
-                tax = -1;
+				hourlyRate = 0;
+				hoursWorked = 0;
+                                tax = 0;
 				System.out.println("Enter Name of Employee(enter 'stop' to exit program): ");
 					employeeName = input.nextLine();
 
