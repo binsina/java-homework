@@ -1,13 +1,11 @@
 package payroll;
 
-
 import java.util.Scanner;
 
 public class PayrollProgram
 {
 		public static void main(String args[])
 		{
-
 			Scanner input = new Scanner(System.in);
 
 				String cleanInputBuffer;
@@ -22,13 +20,16 @@ public class PayrollProgram
 
 			while (end == false)
 			{
-				hourlyRate = 0;
-				hoursWorked = 0;
-                                tax = 0;
+				hourlyRate = -1;
+				hoursWorked = -1;
+                                tax = -1;
 				System.out.println("Enter Name of Employee(enter 'stop' to exit program): ");
 					employeeName = input.nextLine();
-
-				if ("stop".equals(employeeName))
+                
+					int length = employeeName.length();
+                    if (length < 0);
+                                
+                  if ("stop".equals(employeeName))
 					end = true;
 				else
 					System.out.println("Enter a positive hourly rate:");
