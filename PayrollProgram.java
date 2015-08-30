@@ -27,7 +27,7 @@ public class PayrollProgram
 					employeeName = input.nextLine();
                 
 					int length = employeeName.length();
-                    if (length < 0);
+                    if (length > 0);
                                 
                   if ("stop".equals(employeeName))
 					end = true;
